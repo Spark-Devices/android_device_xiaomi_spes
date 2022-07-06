@@ -52,3 +52,8 @@ persist.sys.fw.trim_enable_memory?=2147483648
 persist.sys.fw.bservice_age?=120000
 persist.sys.fw.bservice_limit?=6
 persist.sys.fw.bservice_enable?=true
+
+# Radio
+persist.vendor.radio.report_codec=1
+persist.vendor.radio.vdp_on_ims_cap=1
+persist.vendor.qti.telephony.vt_cam_interface=2
