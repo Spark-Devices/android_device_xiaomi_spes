@@ -1,0 +1,12 @@
+android_app_import {
+	name: "no-display-cutout",
+	owner: "pixelexperience",
+	apk: "no-display-cutout.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+	overrides: ["nothing"],
+}

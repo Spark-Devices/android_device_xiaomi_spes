@@ -237,6 +237,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     GoogleCameraGo
 
+# no-display-cutout
+PRODUCT_PACKAGES += \
+    no-display-cutout
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.spes
