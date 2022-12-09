@@ -38,3 +38,17 @@ ro.lmk.log_stats=true
 ro.lmk.kill_heaviest_task=true
 ro.lmk.kill_timeout_ms=15
 ro.lmk.use_minfree_levels=true
+
+# Display
+debug.sf.disable_backpressure=1
+
+# Memory management
+persist.sys.fw.bg_apps_limit?=48
+persist.sys.fw.use_trim_settings?=true
+persist.sys.fw.empty_app_percent?=50
+persist.sys.fw.trim_empty_percent?=100
+persist.sys.fw.trim_cache_percent?=100
+persist.sys.fw.trim_enable_memory?=2147483648
+persist.sys.fw.bservice_age?=120000
+persist.sys.fw.bservice_limit?=6
+persist.sys.fw.bservice_enable?=true
