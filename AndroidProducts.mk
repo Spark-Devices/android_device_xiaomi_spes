@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/blaze_spes.mk
+    $(LOCAL_DIR)/spark_spes.mk
 
 COMMON_LUNCH_CHOICES := \
-    blaze_spes-user \
-    blaze_spes-userdebug \
-    blaze_spes-eng
+    spark_spes-user \
+    spark_spes-userdebug \
+    spark_spes-eng
